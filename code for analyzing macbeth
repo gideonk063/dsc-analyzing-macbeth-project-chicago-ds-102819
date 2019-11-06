@@ -1,0 +1,31 @@
+import requests
+macbeth = requests.get('http://www.gutenberg.org/cache/epub/2264/pg2264.txt').text
+
+print(type(macbeth))
+print(len(macbeth))
+print(macbeth[:500])
+
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+# Your code here
+
+# Pseudo-code outline
+
+# Split the transcript into words
+macbeth_listed = macbeth.split().lower()
+# Create a dictionary
+individual_word_count = {}
+# Iterate through the text of Macbeth
+for num in range()
+    current_word = macbeth_listed[num]
+    for i in len(individual_word_count):
+        
+# Update word counts
+
+# Sort words by counts in descending order
+
+# Create Bar Graph
+
+# Include descriptive titles and labels
